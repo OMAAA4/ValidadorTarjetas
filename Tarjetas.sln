@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tarjetas", "Tarjetas\Tarjetas.csproj", "{FC656052-EDDD-4425-BD60-6F794CB71E07}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC656052-EDDD-4425-BD60-6F794CB71E07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC656052-EDDD-4425-BD60-6F794CB71E07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC656052-EDDD-4425-BD60-6F794CB71E07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC656052-EDDD-4425-BD60-6F794CB71E07}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B4EF256-E9B9-4682-8539-18686E5D1C83}
+	EndGlobalSection
+EndGlobal

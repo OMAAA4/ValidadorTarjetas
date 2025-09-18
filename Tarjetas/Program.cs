@@ -6,7 +6,7 @@ namespace Tarjetas
     {
         const int RestaSuperior = 9;
         const int ComodinMultiProduct = 2;
-        static void Main(string[] args)
+        static void Main()
         {
             Console.WriteLine("\t..::VALIDAR::..");
             string numeroTarjeta = "30569309025904"; //AQUI EL NÚMERO
@@ -22,23 +22,20 @@ namespace Tarjetas
 
         static bool ValidarNumero(string num)
         {
-            char[] cadena = new char[] { };
-            int[] cadenaNumeros;
-            int[] cadenaProcesada;
-            int iterador = 0;
-            int suma = 0;
-            long validado;
-            if(long.TryParse(num, out validado))
+            if(long.TryParse(num, out _))
             {
-                cadena = num.ToCharArray();
-                cadenaNumeros = new int[cadena.Length];
+                int iterador = 0;
+                int suma = 0;
+                char[] cadena = num.ToCharArray();
+                int[] cadenaNumeros = new int[cadena.Length];
+
                 foreach (char x in cadena.Reverse())
                 {
                     cadenaNumeros[iterador] = int.Parse(x.ToString());
                     iterador++;
                 }
 
-                cadenaProcesada = new int[cadenaNumeros.Length];
+                int[] cadenaProcesada = new int[cadenaNumeros.Length];
 
                 for (int i = 0; i < cadenaNumeros.Length; i++)
                 {
